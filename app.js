@@ -458,3 +458,194 @@
 // else{
 //     alert("wrong answer")
 // }
+
+
+// 8. Write a program to check whether the given number is
+// divisible by 3. Show the message to the user if the number is divisible by 3.
+
+// var num=+prompt("Enter number")
+// if(num%3==0){
+//     alert("number is divisible by 3")
+// }
+// else{
+//     alert("number is not divisible by 3")
+
+// }
+
+// 9. Write a program that checks whether the given input is an
+// even number or an odd number
+
+// var num=+prompt("Enter number")
+// if(num%2==0){
+//     alert("number is even")
+// }
+// else{
+//     alert("number is odd")
+
+// }
+
+// 10. Write a program that takes temperature as input and 
+// shows a message based on following criteria
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+
+// var temp= +prompt("Give Temperature")
+// if(temp > 40){
+//     alert("It is too hot outside.")
+// }
+// else if (temp > 30) {
+//     alert("The Weather today is Normal.")
+// }
+// else if(temp > 20)
+// {
+//     alert("Today’s Weather is cool")
+// }
+// else if(temp > 10){
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+
+// 11. Write a program to create a calculator for +,-,*, / & % 
+// using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %)
+// Compute & show the calculated result to user
+
+// var a=+prompt("enter number 1")
+// var b=+prompt("enter number 2")
+// var ope=prompt("Enter operation (+, -, *, /, %)")
+// var c;
+// if (ope == "+")
+//     {
+//         c=a+b
+//         alert(c)
+//     }
+// else if (ope == "-")
+//      {
+//         c=a-b
+//         alert(c)
+//      }
+// else if (ope == "*")
+//       {
+//           c=a*b
+//           alert(c)
+//       }
+// else if (ope == "/")
+//       {
+//        c= a/b;
+//        alert(c)
+//       }
+// else if (ope == "%")
+//       {
+//         c=a%b
+//         alert(c)
+//       }
+//  else {
+//     alert("entered wrong input")
+// }
+
+// *********************CHAPTER 12-13******************************
+
+// 1. Write a program that takes a character (number or string) in a variable & checks whether 
+// the given input is a number, uppercase letter or lower case letter. (Hint: ASCII 
+// codes:- A=65, Z=90, a=97, z=122)
+
+// 2. Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+
+// var a=+prompt("Enter number 1")
+// var b=+prompt("Enter number 2")
+
+// if(a==b)
+// {
+//     alert("both numbers are equal")
+// }
+// else if(a>b){
+//     alert(a +" is larger")
+// }
+// else{
+//     alert(b +" is larger")
+// }
+
+// 3. Write a program that takes input a number from user & 
+// state whether the number is positive, negative or zero.
+
+// var a=+prompt("Enter number")
+// if(a === 0 ){
+//     alert("The number is zero")
+// }
+// else if(a < 0 ){
+//     alert("The number is negative")
+// }
+// else if(a >0 ){
+//     alert("The number is positive")
+// }
+// else {
+//     alert("wrong input")
+// }
+
+// 4. Write a program that takes a character (i.e. string of 
+//     length 1) and returns true if it is a vowel, false otherwise
+ 
+// var a=prompt("Enter a character")
+
+// if(a==="a"|| a==="e"|| a==="i"|| a==="o"|| a==="u"){
+//     alert("character is vowel")
+// }
+// else{
+//     alert("character is not vowel")
+// }
+
+// 5. Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are same, show message “Correct! The password you 
+// entered matches the original password”. Show “Incorrect password” otherwise.
+
+// var password="karachi"
+// var p=prompt("Enter password")
+// if (p===password){
+//     alert("Correct! The password you entered matches the original password")
+// }
+// else{
+//     alert("Incorrect password")
+// }
+
+// 6. This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else{
+// greeting = "Good evening";
+// }
+
+// 7. Write a program that takes time as input from user in 24 hours clock format 
+// like: 1900 = 7pm. Implement the following case using if, else & else if statements
+
+// var hours=+prompt("Enter hours clock format ")
+// if(hours===1||hours===2||hours===3||hours===4||hours===5||hours===6||hours===7||hours===8||hours===9||hours===10||hours===11||hours===12)
+// {
+// alert(hours+"pm")
+// }
+// if(hours===13||hours===14||hours===15||hours===16||hours===17||hours===18||hours===19||hours===20||hours===21||hours===22||hours===23||hours===24)
+// {
+// alert((hours-12)+"am")
+// }
+
+
